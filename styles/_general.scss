@@ -4,10 +4,15 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: $main_font_size;
+}
+
 body {
     background-color: $body_background_color;
     overflow-x: hidden;
     position: relative;
+    overflow-y: auto;
 }
 
 a {
@@ -25,6 +30,5 @@ div,
 p,
 span,
 a {
-    font-size: $main_font_size;
     line-height: $main_line_height;
 }

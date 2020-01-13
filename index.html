@@ -3,7 +3,7 @@
     <head>
         <title>Sisabo</title>
         <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="./node_modules/owlcarousel/owl-carousel/owl.carousel.css">
+        <link rel="stylesheet" href="./node_modules/owlcarousel/dist/assets/owl.carousel.min.css">
         <link rel="stylesheet" href="./node_modules/sweetalert2/dist/sweetalert2.min.css">
 
         <!-- STYLES FOR MODULES -->
@@ -12,15 +12,175 @@
         
         <script src="./node_modules/jquery/dist/jquery.min.js" defer></script>
         <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js" defer></script>
-        <script src="./node_modules/owlcarousel/owl-carousel/owl.carousel.min.js" defer></script>
+        <script src="./node_modules/owlcarousel/dist/owl.carousel.min.js" defer></script>
         <script src="./node_modules/sweetalert2/dist/sweetalert2.min.js" defer></script>
     </head>
     <body>
-        <div id="styles">
+        <header class="header">
+            <div class="header-top">
+                <div class="container"> 
+                    <div class="flex-between">
+                        <div class="col_padding">
+                            <img src="../../src/modest.png" alt="Logo">
+                        </div>
+                        <div class="not-for-xs not-for-md not-for-sm">
+                            <nav>
+                                <ul>
+                                    <li class="col_padding">
+                                        <a class="col_padding active">Home</a>
+                                    </li>
+                                    <li class="col_padding">
+                                        <a class="col_padding">About</a>
+                                    </li>
+                                    <li class="col_padding">
+                                        <a class="col_padding">Work</a>
+                                    </li>
+                                    <li class="col_padding">
+                                        <a class="col_padding">Team</a>
+                                    </li>
+                                    <li class="col_padding">
+                                        <a class="col_padding">Services</a>
+                                    </li>
+                                    <li class="col_padding">
+                                        <a class="col_padding">Features</a>
+                                    </li>
+                                    <li class="col_padding">
+                                        <a class="col_padding">Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col_double_padding for-xs for-sm for-md">
+                            <div class="hamburger">
+                                <div class="stick"></div>
+                                <div class="stick"></div>
+                                <div class="stick"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="r-menu">
+                    <nav>
+                        <ul>
+                            <li class="col_padding">
+                                <a class="col_padding active">Home</a>
+                            </li>
+                            <li class="col_padding">
+                                <a class="col_padding">About</a>
+                            </li>
+                            <li class="col_padding">
+                                <a class="col_padding">Work</a>
+                            </li>
+                            <li class="col_padding">
+                                <a class="col_padding">Team</a>
+                            </li>
+                            <li class="col_padding">
+                                <a class="col_padding">Services</a>
+                            </li>
+                            <li class="col_padding">
+                                <a class="col_padding">Features</a>
+                            </li>
+                            <li class="col_padding">
+                                <a class="col_padding">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="header-body owl-carousel">
+                <div class="slide">
+                    <img src="./src/header.jpg" alt="Slider-background">
+                    <div class="overlay">
+                        <div class="container">
+                            <div class="slider-info col_padding">
+                                <h1 class="col_padding no_margin">
+                                    Welcome to our marketplace
+                                </h1>
+                                <div class="col_padding col_double_padding_bottom">
+                                    <p class="line_2 no_margin">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                        Sed nisi metus, tristique ndolor 
+                                        non, ornare sagittis dolor. Nulla vestibulu lacus m dolor 
+                                        sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor 
+                                        non, ornare sagittis dolor. Nulla vestibulu lacus 
+                                    </p>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="col_padding">    
+                                        <div class="primary_button">View More</div>
+                                    </div>
+                                    <div class="col_padding">
+                                        <div class="primary_button">Video Tour</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="./src/header.jpg" alt="Slider-background">
+                    <div class="overlay">
+                        <div class="container">
+                            <div class="slider-info col_padding">
+                                <h1 class="col_padding no_margin">
+                                    Welcome to our marketplace
+                                </h1>
+                                <div class="col_padding col_double_padding_bottom">
+                                    <p class="line_2 no_margin">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                        Sed nisi metus, tristique ndolor 
+                                        non, ornare sagittis dolor. Nulla vestibulu lacus m dolor 
+                                        sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor 
+                                        non, ornare sagittis dolor. Nulla vestibulu lacus 
+                                    </p>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="col_padding">    
+                                        <div class="primary_button">View More</div>
+                                    </div>
+                                    <div class="col_padding">
+                                        <div class="primary_button">Video Tour</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="./src/header.jpg" alt="Slider-background">
+                    <div class="overlay">
+                        <div class="container">
+                            <div class="slider-info col_padding">
+                                <h1 class="col_padding no_margin">
+                                    Welcome to our marketplace
+                                </h1>
+                                <div class="col_padding col_double_padding_bottom">
+                                    <p class="line_2 no_margin">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                        Sed nisi metus, tristique ndolor 
+                                        non, ornare sagittis dolor. Nulla vestibulu lacus m dolor 
+                                        sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor 
+                                        non, ornare sagittis dolor. Nulla vestibulu lacus 
+                                    </p>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="col_padding">    
+                                        <div class="primary_button">View More</div>
+                                    </div>
+                                    <div class="col_padding">
+                                        <div class="primary_button">Video Tour</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </header>
 
-        </div>
         <div id="main"></div>
 
-        <script src="main.js" defer></script>
+        <script src="main.js" defer></script> 
+        <script src="./modules/header/scripts.js" defer></script>
     </body>
 </html>

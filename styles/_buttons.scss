@@ -1,18 +1,20 @@
 .primary_button {
+    width: 120px;
+    height: 40px;
+    background-color: rgba($primary_color, 0);
+    border: 2px solid $white_color;
+    border-radius: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: $white_color;
-    background-color: $primary_color;
     transition: $s_transition;
-    padding: $main_padding 2 * $main_padding;
-    border-radius: $secondary_border_radius;
     text-decoration: none;
     cursor: pointer;
 
     &:hover {
-        background-color: $primary_hover_color;
-        color: $white_color;
+        background-color: $primary_color;
+        border: 2px solid $primary_color;
     } 
 } 
 

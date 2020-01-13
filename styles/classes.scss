@@ -1,10 +1,18 @@
 @import "variables";
 
 .page-title {
-    justify-content: center;
+    padding: $main_padding;
+    position: relative; 
     display: flex;
-    align-items: center;
-    padding: $heading_padding;
+
+    span {
+        position: relative;
+        display: block;
+        margin-right: $main_padding;
+        width: $main_padding;
+        height: 1rem;
+        background: $grey_hover;
+    }
 }
 
 .flex-between {
