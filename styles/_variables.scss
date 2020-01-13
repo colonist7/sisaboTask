@@ -1,0 +1,37 @@
+// COLORS
+
+$primary_color: #02b3a3;
+$primary_hover_color: #c00;
+$secondary_color: #ff7518;
+$secondary_hover_color: #ffaf18;
+$text_color: #023934;
+$body_background_color: #fff;
+$section_background_color: #f60;
+$white_color: #fff;
+
+$main-gradient: linear-gradient(180deg, rgba(2,90,92,0.7) 0%, rgba(2,90,92,0) 61%, rgba(255,255,255,0) 100%);
+$secondary_gradient: radial-gradient(circle, rgba(255,255,255,0) 50%, rgba(68,68,68,1) 100%);
+
+
+// FONT 
+
+$main_font_size: 16px;
+$main_line_height: 140%;
+
+// SPACING
+
+$main_padding: 9px;
+$main_margin: 9px;
+$heading_padding: 20px 9px 20px;
+
+// SHADOW AND BORDERS
+
+$primary_shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+$primary_border_radius: 10px;
+$secondary_border_radius: 30px;
+
+// TRANSITION
+
+$s_transition: all .2s ease-in-out;
+$m_transition: all .3s ease-in-out;
+$l_transition: all .5s ease-in-out;

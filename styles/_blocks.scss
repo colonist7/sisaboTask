@@ -1,0 +1,63 @@
+.block_1 {
+    box-shadow: $primary_shadow;
+    border-radius: $primary_border_radius;
+    overflow: hidden;
+
+    .optional-title {
+        position: absolute;
+        top: 0;
+        left: 0;
+       
+        h3 {
+            color: $white_color
+        }
+    }
+
+    .tour-categories {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    &--category {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: $white_color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: $main_margin;
+    }
+
+    &--img {
+        position: relative;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+        }
+
+        .wave {
+            transform: scale(3) translateY(-25%);
+            position: absolute;
+            width: 100%;
+            top: 100%;
+            z-index: 10;
+            left: 0;
+        }
+
+        .wave-2 {
+            transform: translateY(-85%);
+            position: absolute;
+            width: 100%;
+            top: 100%;
+            z-index: 5;
+            left: 0;
+        }
+    }
+
+    &--content {
+        padding-top: 0;
+    }
+}

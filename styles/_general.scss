@@ -1,0 +1,30 @@
+* {
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $body_background_color;
+    overflow-x: hidden;
+    position: relative;
+}
+
+a {
+    color: $primary_color; 
+    text-decoration: underline;
+    transform: $s_transition;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+section,
+div,
+p,
+span,
+a {
+    font-size: $main_font_size;
+    line-height: $main_line_height;
+}
