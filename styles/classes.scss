@@ -1,7 +1,7 @@
 @import "variables";
 
 .page-title {
-    padding: $main_padding;
+    padding: 80px $main_padding * 2 40px;
     position: relative; 
     display: flex;
 
@@ -9,8 +9,9 @@
         position: relative;
         display: block;
         margin-right: $main_padding;
-        width: $main_padding;
-        height: 1rem;
+        margin-bottom: 6px;
+        width: $main_padding; 
+        height: inherit;
         background: $grey_hover;
     }
 }

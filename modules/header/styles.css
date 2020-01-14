@@ -42,7 +42,7 @@
     max-width: 720px;
   }
   .header-body .slide {
-    height: 320px;
+    height: 350px;
     position: relative;
   }
   .header-body .slide .slider-info {
@@ -104,6 +104,8 @@
 
 .header-top nav ul li a {
   text-decoration: none;
+  font-size: Quatrrocento;
+  text-transform: uppercase;
   display: block;
   color: #fff;
   padding: 7px 9px;
@@ -164,7 +166,7 @@
   z-index: 5;
 }
 
-.header-body .slide .overlay .slider-info h1, .header-body .slide .overlay .slider-info p {
+.header-body .slide .overlay .slider-info h2, .header-body .slide .overlay .slider-info p {
   color: #fff;
 }
 

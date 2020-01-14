@@ -1,3 +1,13 @@
+@font-face {
+  font-family: OpenSans;
+  src: url(../src/fonts/OpenSans-Light.ttf);
+}
+
+@font-face {
+  font-family: Quattrocento;
+  src: url(../src/fonts/QuattrocentoSans-Regular.otf);
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -27,12 +37,28 @@ a:hover {
   text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Quattrocento;
+  line-height: 100%;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  margin: 0 !important;
+}
+
 section,
 div,
 p,
 span,
 a {
   line-height: 140%;
+  font: 16px/140% OpenSans;
+  letter-spacing: 1px;
+  color: #8d8f92;
 }
 
 @media (max-width: 575px) {
@@ -197,7 +223,7 @@ a {
 }
 
 .page-title {
-  padding: 9px;
+  padding: 80px 18px 40px;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -208,8 +234,9 @@ a {
   position: relative;
   display: block;
   margin-right: 9px;
+  margin-bottom: 6px;
   width: 9px;
-  height: 1rem;
+  height: inherit;
   background: #d0d5d9;
 }
 
@@ -716,6 +743,8 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-size: Quattrocento;
+  text-transform: uppercase;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
