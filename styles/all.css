@@ -242,7 +242,7 @@ a {
   margin-bottom: 6px;
   width: 9px;
   height: inherit;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.15);
 }
 
 .page-title.white span {
@@ -361,6 +361,14 @@ a {
 
 #Work {
   margin-top: 82px;
+}
+
+.center {
+  text-align: center;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
 }
 
 .block_1 .b1-img {
