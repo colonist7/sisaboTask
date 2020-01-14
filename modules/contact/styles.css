@@ -1,0 +1,246 @@
+@media (max-width: 575px) {
+  .copyright {
+    text-align: center;
+  }
+  .custom-input {
+    width: 100%;
+  }
+  .form {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .icons {
+    text-align: center;
+  }
+  .secondary_button {
+    margin: auto;
+  }
+}
+
+@media (min-width: 576px) {
+  .copyright {
+    text-align: center;
+  }
+  .custom-input {
+    width: 50%;
+  }
+  .form {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .icons {
+    text-align: center;
+  }
+  .secondary_button {
+    margin: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .copyright {
+    text-align: left;
+  }
+  .custom-input {
+    width: 50%;
+  }
+  .form {
+    -webkit-transform: translateY(-110px);
+            transform: translateY(-110px);
+  }
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .icons {
+    text-align: right;
+  }
+  .secondary_button {
+    margin: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .copyright {
+    text-align: left;
+  }
+  .custom-input {
+    width: 50%;
+  }
+  .form {
+    -webkit-transform: translateY(-110px);
+            transform: translateY(-110px);
+  }
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .icons {
+    text-align: right;
+  }
+  .secondary_button {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .copyright {
+    text-align: left;
+  }
+  .custom-input {
+    width: 50%;
+  }
+  .form {
+    -webkit-transform: translateY(-110px);
+            transform: translateY(-110px);
+  }
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .icons {
+    text-align: right;
+  }
+  .secondary_button {
+    margin: 0;
+  }
+}
+
+.map {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.map img {
+  width: auto;
+  height: 100%;
+}
+
+.custom-input {
+  max-width: 100%;
+}
+
+.custom-input input {
+  height: 40px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 100%;
+  border: 1px solid #c8cdd0;
+  outline: none;
+  background-color: #c8cdd0;
+  padding: 10px;
+}
+
+.custom-input input:focus, .custom-input input:valid {
+  background: #fff;
+}
+
+.custom-input textarea {
+  display: block;
+  height: 200px;
+  width: 100%;
+  border: 1px solid #c8cdd0;
+  outline: none;
+  background-color: #c8cdd0;
+  resize: none;
+  padding: 10px;
+}
+
+.custom-input textarea:focus, .custom-input textarea:valid {
+  background: #fff;
+}
+
+.form {
+  background-color: #fff;
+  margin-bottom: 30px;
+  z-index: 10;
+  position: relative;
+  padding: 9px;
+}
+
+footer {
+  padding: 9px;
+  background: #3a454d;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer .footer {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer div, footer i {
+  color: #fff;
+}
+
+footer .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer i {
+  margin: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+footer i:hover {
+  opacity: 0.7;
+}
+/*# sourceMappingURL=styles.css.map */

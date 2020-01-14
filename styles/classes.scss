@@ -23,6 +23,10 @@
     }
 }
 
+.page-title.even {
+    padding-bottom: 80px;
+}
+
 .flex-between {
     display: flex;
     align-items: center;
@@ -114,4 +118,12 @@
 
 .mb-30 {
     margin-bottom: 30px;
+}
+
+.mb-80 {
+    margin-bottom: 80px;
+}
+
+.mv-60-40 {
+    margin: 60px 0 40px !important;
 }
