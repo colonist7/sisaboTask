@@ -6,8 +6,10 @@ let showHideHamburger = () => {
         $('.r-menu').slideToggle();
         if($('body').css("overflow-y") == "auto") {
             $('body').css("overflow-y", "hidden");  
+            $('html').css("overflow-y", "hidden");  
         } else {
             $('body').css("overflow-y", "auto");
+            $('html').css("overflow-y", "auto");
         }
     });
 }

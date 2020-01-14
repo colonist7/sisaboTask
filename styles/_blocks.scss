@@ -1,63 +1,96 @@
+@import "variables";
+
 .block_1 {
-    box-shadow: $primary_shadow;
-    border-radius: $primary_border_radius;
-    overflow: hidden;
-
-    .optional-title {
-        position: absolute;
-        top: 0;
-        left: 0;
-       
-        h3 {
-            color: $white_color
-        }
-    }
-
-    .tour-categories {
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
-
-    &--category {
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        background-color: $white_color;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: $main_margin;
-    }
-
-    &--img {
+    .b1-img {
         position: relative;
-        overflow: hidden;
 
         img {
             width: 100%;
+            height: auto;
         }
 
-        .wave {
-            transform: scale(3) translateY(-25%);
+        .light-overlay {
+            opacity: 0;
             position: absolute;
-            width: 100%;
-            top: 100%;
-            z-index: 10;
+            top: 0;
             left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba($white_color, 0.5);
+            display: flex;
+            justify-content: center;
+            transition: $m_transition;
+            align-items: center;
+
+            .social-media {
+                span {
+                    background-color: $secondary_color;
+                    cursor: pointer;
+                    
+                    &:hover {
+                        background-color: $secondary_hover_color;
+                    }
+                }
+            }
+        }
+    } 
+
+    .b1-body {
+        background-color: $grey_hover;
+        transition: $m_transition;
+
+        h5 {
+            color: $header_bg;
+            transition: $m_transition;
         }
 
-        .wave-2 {
-            transform: translateY(-85%);
-            position: absolute;
-            width: 100%;
-            top: 100%;
-            z-index: 5;
-            left: 0;
+        p {
+            color: $grey_color;
+            transition: $m_transition;
         }
     }
 
-    &--content {
-        padding-top: 0;
+    &:hover {
+        .light-overlay {
+            opacity: 1;
+        }
+
+        .b1-body {
+            background-color: $secondary_color;
+
+            h5 {
+               color: $white_color;     
+            }
+
+            p {
+               color: $white_color; 
+            }
+        }
+    }
+}
+
+.block_2 {
+    position: relative;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    h5 {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: $white_color;
+        background-color: $header_bg;
+        transition: $m_transition;
+        opacity: 0;
+    }
+
+    &:hover {
+        h5 {
+            opacity: 1;
+        }
     }
 }

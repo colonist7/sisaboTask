@@ -1,5 +1,5 @@
 @import "variables";
-
+ 
 .page-title {
     padding: 80px $main_padding * 2 40px;
     position: relative; 
@@ -12,7 +12,14 @@
         margin-bottom: 6px;
         width: $main_padding; 
         height: inherit;
-        background: $grey_hover;
+        // background: $grey_hover;
+        background-color: rgba(0,0,0,0.15);
+    }
+}
+
+.page-title.white {
+    span {
+        background-color: rgba(#fff,0.1);
     }
 }
 
@@ -82,4 +89,21 @@
             opacity: 1;
         }
     }
+}
+
+.dark {
+    background: $secondary_color;
+}
+
+.white {
+    color: $white_color;
+}
+
+.margin-v-40 {
+    margin-top: 40px;
+    padding-bottom: 40px + 2 * $main_padding;
+}
+
+#Work {
+    margin-top: 100px - 2 * $main_padding;
 }

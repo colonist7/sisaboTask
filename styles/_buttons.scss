@@ -1,6 +1,6 @@
 .primary_button {
-    width: 120px;
-    height: 40px;
+    min-width: 120px;
+    min-height: 40px;
     background-color: rgba($primary_color, 0);
     border: 2px solid $white_color;
     border-radius: 3px;
